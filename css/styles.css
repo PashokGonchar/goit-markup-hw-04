@@ -150,7 +150,11 @@ body {
 .hero {
   background-color: var(--navy-color);
   text-align: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-image.jpg);
   background-size: cover;
   max-width: 1440px;
   margin-left: auto;
@@ -283,6 +287,25 @@ body {
   text-align: center;
 }
 
+.social-list {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  gap: 24px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
+}
+
+
 .footer {
   width: 264px;
 }
@@ -310,7 +333,7 @@ body {
   color: var(--cornflower-color);
 }
 
-.main-button{
+.main-button {
   padding-top: 96px;
 }
 
