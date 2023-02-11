@@ -339,7 +339,8 @@ text-transform: capitalize;
 
 .customers-list-icon:hover,
 .customers-list-icon:focus {
-fill: var(--ocean-color);
+  fill: var(--ocean-color);
+  border: 1px solid var(--ocean-color);
 }
 
 .customers-list-icon{
@@ -347,6 +348,7 @@ fill: var(--ocean-color);
   height: 88px;
   border: 1px solid var(--light-slate-color);
 border-radius: 4px;
+fill: #8e8f99;
 }
 
 .footer {
