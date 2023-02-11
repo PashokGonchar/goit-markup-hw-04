@@ -36,6 +36,7 @@ img {
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
   --light-slate-color:#8E8F99;
+  --green-color: #31D0AA;
 }
 
 body {
@@ -414,8 +415,13 @@ color: var(--white-color);
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color:var(--light-slate-color);
-  fill:var(--white-color);
+  background-color:#ffffff10;
+  fill:var(--cloud-color);
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+  background-color: var(--green-color);
 }
 
 .main-button {
