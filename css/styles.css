@@ -192,6 +192,7 @@ body {
 .hero-button:focus {
   background: var(--ocean-color);
   cursor: pointer;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 .title {
   display: flex;
@@ -432,6 +433,11 @@ color: var(--white-color);
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+}
+
+.button-item:hover,
+.button-item:focus {
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .button-item:not(:last-child) {
