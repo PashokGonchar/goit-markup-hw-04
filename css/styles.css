@@ -296,6 +296,11 @@ body {
   gap: 24px;
 }
 
+.social-list-icon {
+  width: 16px;
+  height: 16px;
+}
+
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -332,7 +337,14 @@ text-transform: capitalize;
   align-items: center;
 }
 
+.customers-list-icon:hover,
+.customers-list-icon:focus {
+fill: var(--ocean-color);
+}
+
 .customers-list-icon{
+  width: 168px;
+  height: 88px;
   border: 1px solid var(--light-slate-color);
 border-radius: 4px;
 }
