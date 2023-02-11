@@ -309,6 +309,12 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-color);
+  fill:#f4f4fd;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--ocean-color);
 }
 
 .customers-section{
