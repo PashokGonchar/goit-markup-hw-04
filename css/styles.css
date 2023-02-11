@@ -309,7 +309,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-color);
-  fill:#f4f4fd;
+  fill:var(--cloud-color);
 }
 
 .social-list-link:hover,
@@ -383,6 +383,44 @@ fill: #8e8f99;
   letter-spacing: 0.02em;
   color: var(--cornflower-color);
 }
+
+.footer-social-list {
+  display: block;
+  margin-left: 120px;
+}
+
+.footer-item {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--white-color);
+}
+
+.footer-list {
+  display: flex;
+  padding-top: 16px;
+  gap: 24px;
+}
+
+.footer-list-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#8e8f99;
+  fill:var(--cloud-color);
+}
+
+
+
+
 
 .main-button {
   padding-top: 96px;
