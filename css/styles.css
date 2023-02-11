@@ -35,6 +35,7 @@ img {
   --white-color: #ffffff;
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
+  --light-slate-color:#8E8F99;
 }
 
 body {
@@ -305,6 +306,36 @@ body {
   background-color: var(--iris-color);
 }
 
+.customers-section{
+  padding-top: 0px;
+}
+
+.customers{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-color);
+  padding-top: 130px;
+  text-align: center;
+text-transform: capitalize;
+}
+
+.customers-list {
+  display: flex;
+  padding-top: 72px;
+  gap: 24px;
+}
+
+.customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-list-icon{
+  border: 1px solid var(--light-slate-color);
+border-radius: 4px;
+}
 
 .footer {
   width: 264px;
