@@ -209,6 +209,20 @@ body {
   color: var(--slate-color);
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+.icon-advantages{
+  width: 64px;
+  height: 64px;
+}
+
+.icon-advantages-list{
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud-color);
+  padding: 24px 100px;
+}
+
+
 .title-text {
   margin-top: 8px;
 }
