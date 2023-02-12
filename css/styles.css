@@ -345,10 +345,11 @@ body {
   align-items: center;
 }
 
-.customers-list-link:hover,
-.customers-list-link:focus {
+.customers-list-item .customers-list-link:hover,
+.customers-list-item .customers-list-link:focus {
   fill: var(--ocean-color);
   border: 1px solid var(--ocean-color);
+  outline-color:var(--ocean-color);
 }
 
 .customers-list-link {
@@ -357,6 +358,11 @@ body {
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
   fill: var(--light-slate-color);
+}
+
+.customers-list-icon {
+  width: 168px;
+  height: 88px;
 }
 
 .footer {
