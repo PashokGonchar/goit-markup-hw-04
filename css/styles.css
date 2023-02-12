@@ -35,8 +35,8 @@ img {
   --white-color: #ffffff;
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
-  --light-slate-color:#8E8F99;
-  --green-color: #31D0AA;
+  --light-slate-color: #8e8f99;
+  --green-color: #31d0aa;
 }
 
 body {
@@ -311,7 +311,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-color);
-  fill:var(--cloud-color);
+  fill: var(--cloud-color);
 }
 
 .social-list-link:hover,
@@ -319,18 +319,18 @@ body {
   background-color: var(--ocean-color);
 }
 
-.customers-section{
+.customers-section {
   padding-top: 0px;
 }
 
-.customers{
+.customers {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-color);
   padding-top: 130px;
   text-align: center;
-text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .customers-list {
@@ -351,12 +351,12 @@ text-transform: capitalize;
   border: 1px solid var(--ocean-color);
 }
 
-.customers-list-icon{
+.customers-list-icon {
   width: 168px;
   height: 88px;
   border: 1px solid var(--light-slate-color);
-border-radius: 4px;
-fill: var(--light-slate-color);
+  border-radius: 4px;
+  fill: var(--light-slate-color);
 }
 
 .footer {
@@ -393,9 +393,9 @@ fill: var(--light-slate-color);
 
 .footer-item {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
 }
 
 .footer-list {
@@ -416,8 +416,8 @@ color: var(--white-color);
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color:#ffffff10;
-  fill:var(--cloud-color);
+  background-color: #ffffff10;
+  fill: var(--cloud-color);
 }
 
 .footer-list-link:hover,
@@ -475,11 +475,10 @@ color: var(--white-color);
   margin-bottom: 48px;
 }
 
-.works-cards-item:hover,
-.works-cards-item:focus {
-box-shadow: 0px 2px 1px 0px #2E2F4214;
-box-shadow: 0px 1px 1px 0px #2E2F4229;
-box-shadow: 0px 1px 6px 0px #2E2F4214;
+.works-cards-link:hover,
+.works-cards-link:focus {
+  color: red;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .works-cards-item:nth-child(3n) {
