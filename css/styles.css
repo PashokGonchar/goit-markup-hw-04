@@ -386,6 +386,11 @@ body {
   width: 264px;
 }
 
+.footer-list-text{
+  display: flex;
+  align-items: baseline;
+}
+
 .logo-footer {
   display: block;
   font-family: var(--secondary-font);
@@ -423,7 +428,7 @@ body {
 
 .footer-list {
   display: flex;
-  padding-top: 16px;
+  margin-top: 16px;
   gap: 16px;
 }
 
