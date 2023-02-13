@@ -216,11 +216,13 @@ body {
 }
 
 .icon-advantages-list{
+  display: flex;
   width: 264px;
   height: 112px;
   background-color: var(--cloud-color);
   border-radius: 4px;
-  padding: 24px 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -376,8 +378,8 @@ body {
 }
 
 .customers-list-icon {
-  width: 168px;
-  height: 88px;
+  width: 104px;
+  height: 56px;
 }
 
 .footer {
